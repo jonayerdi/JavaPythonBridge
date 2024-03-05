@@ -258,8 +258,8 @@ public class ServerBridge {
         ServerBridge server = null;
         int port = DEFAULT_PORT;
 
-        if (args.length > 1) {
-            port = Integer.parseInt(args[1]);
+        if (args.length > 0) {
+            port = Integer.parseInt(args[0]);
         }
 
         try {
